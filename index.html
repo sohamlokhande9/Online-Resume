@@ -1,27 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Soham Lokhande Portfolio</title>
-
-    <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-
-<body>
-
     <!-- ================= NAVBAR ================= -->
 
     <header>
         <nav class="navbar">
-
             <h2 class="logo">Soham.</h2>
 
             <ul class="nav-links">
@@ -32,210 +13,71 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
         </nav>
     </header>
 
     <!-- ================= HERO SECTION ================= -->
 
-    <section id="home" class="hero">
+    <section class="hero" id="home">
 
         <div class="hero-text">
-            <h1>Hello, I'm <span>Soham Lokhande</span></h1>
+            <p class="intro">Hello, My Name is</p>
 
-            <p>
-                First Year ENTC Engineering Student &
-                Tech Enthusiast
+            <h1>Soham Lokhande</h1>
+
+            <h3>First Year ENTC Engineering Student & Tech Enthusiast</h3>
+
+            <p class="hero-description">
+                Passionate about electronics, Arduino projects,
+                embedded systems and beginner-friendly web development.
             </p>
 
-            <a href="#projects" class="btn">View Projects</a>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
         </div>
 
         <div class="hero-image">
-            <!-- Add your profile image here -->
-            <img src="images/profile.jpg" alt="Profile Image">
+            <img src="images/profile.jpg" alt="Soham Profile Image">
         </div>
 
     </section>
 
-    <!-- ================= ABOUT SECTION ================= -->
+    <!-- ================= ABOUT ================= -->
 
-    <section id="about" class="about">
+    <section class="about" id="about">
 
-        <h2>About Me</h2>
-
-        <p>
-            I am a First Year ENTC Engineering student at
-            MIT Academy of Engineering, Alandi Pune.
-
-            I am passionate about electronics, technology,
-            hardware projects and web development.
-
-            I enjoy learning programming, microcontrollers
-            and building beginner-friendly engineering projects.
-        </p>
-
-    </section>
-
-    <!-- ================= SKILLS SECTION ================= -->
-
-    <section id="skills" class="skills">
-
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">C</div>
-            <div class="skill-card">C++</div>
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">Arduino</div>
-            <div class="skill-card">Microcontrollers</div>
-            <div class="skill-card">Web Development</div>
-
+        <div class="section-title">
+            <h2>About Me</h2>
         </div>
 
-    </section>
+        <div class="about-container">
 
-    <!-- ================= PROJECTS SECTION ================= -->
-
-    <section id="projects" class="projects">
-
-        <h2>Projects</h2>
-
-        <div class="project-container">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-                <h3>Automatic Obstacle Avoiding Robot</h3>
-
+            <div class="about-card">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Electronics</h3>
                 <p>
-                    Built a robot using Arduino and ultrasonic sensor
-                    which automatically detects and avoids obstacles.
+                    Interested in electronics circuits,
+                    ICs, sensors and microcontroller-based systems.
                 </p>
-
-                <h4>Technologies Used:</h4>
-                <span>Arduino Uno</span>
-                <span>Ultrasonic Sensor</span>
             </div>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <h3>Smart Hygiene Monitoring System</h3>
-
+            <div class="about-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Projects</h3>
                 <p>
-                    Beginner level monitoring system for maintaining
-                    hygiene and cleanliness using sensors.
+                    Built beginner engineering projects using
+                    Arduino Uno and embedded systems.
                 </p>
-
-                <h4>Technologies Used:</h4>
-                <span>Arduino</span>
-                <span>Sensors</span>
             </div>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <h3>Door Bell Circuit using IC 555</h3>
-
+            <div class="about-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
                 <p>
-                    Simple electronic door bell circuit created
-                    using IC 555 timer.
+                    Learning C, C++, HTML and CSS
+                    while improving problem-solving skills.
                 </p>
-
-                <h4>Technologies Used:</h4>
-                <span>IC 555</span>
-                <span>Electronics Components</span>
             </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <h3>Smart Irrigation System using AR</h3>
-
-                <p>
-                    AR based smart irrigation system for better
-                    water management in agriculture.
-                </p>
-
-                <h4>Technologies Used:</h4>
-                <span>AR</span>
-                <span>Arduino</span>
-            </div>
-
-            <!-- Project 5 -->
-            <div class="project-card">
-                <h3>Arduino Uno Projects</h3>
-
-                <p>
-                    Worked on multiple beginner level projects
-                    using Arduino Uno and sensors.
-                </p>
-
-                <h4>Technologies Used:</h4>
-                <span>Arduino Uno</span>
-                <span>Embedded Systems</span>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= EDUCATION SECTION ================= -->
-
-    <section id="education" class="education">
-
-        <h2>Education</h2>
-
-        <div class="education-card">
-
-            <h3>MIT Academy of Engineering</h3>
-
-            <p>Alandi, Pune</p>
-
-            <p>First Year ENTC Engineering</p>
-
-        </div>
-
-    </section>
-
-    <!-- ================= CONTACT SECTION ================= -->
-
-    <section id="contact" class="contact">
-
-        <h2>Contact Me</h2>
-
-        <div class="social-links">
-
-            <a href="#" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-
-            <a href="#" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="#" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a href="#" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <p>Made by Soham Lokhande</p>
-
-    </footer>
-
-    <!-- JavaScript File -->
-    <script src="script.js"></script>
-
-</body>
-
 </html>
